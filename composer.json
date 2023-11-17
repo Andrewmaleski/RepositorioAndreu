@@ -1,0 +1,19 @@
+{
+    "description": "Projeto PHP OO",
+    "authors": [
+{
+    "name": "andreu",
+    "email": "andreu@maleski.com"
+}
+
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sts\\": "app/sts",
+            "Core\\": "core"
+        }
+    },
+    "require": {}
+
+
+}
