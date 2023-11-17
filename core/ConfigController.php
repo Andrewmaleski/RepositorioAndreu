@@ -25,6 +25,11 @@ class ConfigController {
         }
 
     
-}
+    }
+
+    public function loadPage(){
+        echo"carregar a pagina/controller <br>";
+        "\\Sts\Controllers\\" . $this->urlController;
+    }
 
 }
